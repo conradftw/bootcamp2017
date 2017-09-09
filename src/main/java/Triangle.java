@@ -1,5 +1,5 @@
 
-public class Triangle {
+public class Triangle implements Shape{
 	private double x1, y1, x2, y2, x3, y3;
 	
 	public Triangle(double x1, double y1,double x2,double y2,double x3,double y3) {
@@ -17,5 +17,7 @@ public class Triangle {
 			area = -area;
 		return area;
 	}
+	
+	
 	
 }
